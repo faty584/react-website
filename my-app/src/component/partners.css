@@ -1,0 +1,124 @@
+.partners1{
+font-family: Work Sans;
+font-weight: 700;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: 5px;
+text-align: center;
+text-transform: uppercase;
+color: #74C69D;
+}
+.Ipsum{
+font-family: Crimson Text;
+font-weight: 700;
+font-size: 24px;
+line-height: 125%;
+letter-spacing: 0px;
+text-align: center;
+}
+
+.consectetur{
+    font-family: Work Sans;
+font-weight: 400;
+font-size: 20px;
+line-height: 125%;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.smooth img{
+    align-items: center;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+
+}
+
+
+.partners2 p {
+ width: 350px
+}
+
+.learnmore img {
+  margin-left: 90px
+}
+
+.google{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.micros{
+ margin-bottom: 30px;
+   margin-top: 30px;
+    margin-right: 40px;
+ 
+}
+.fb{
+    margin-bottom: 30px;
+      margin-top: 30px;
+}
+.spotify{
+   margin-bottom: 30px;
+      margin-top: 30px; 
+}
+.learnmoreimg{
+    margin-bottom: 30px;
+    
+}
+
+/* --- Desktop View (min-width: 1024px) --- */
+@media screen and (min-width: 1024px) {
+  .partners {
+    padding: 40px 0px;
+  }
+
+  .partners2 {
+    text-align: left;
+    padding-left: 50px;
+    margin-bottom: 30px;
+  }
+
+  .smooth {
+    justify-content: flex-start;
+    gap: 60px;
+    flex-wrap: nowrap;
+    padding-left: 50px;
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    margin-right: 700px;
+  }
+
+  .google,
+  .micros,
+  .fb,
+  .spotify {
+    max-width: 120px;
+  }
+
+  .learnmore {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 70px;
+     margin-top: 70px;
+     margin-left: 540px;
+    
+
+ 
+  }
+
+  .learnmore img {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+     margin-left: 330px;
+  }
+}
+
+@media (min-width:768px){
+  .learnmore{
+    margin-left:  200px;
+  }
+}

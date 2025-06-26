@@ -1,0 +1,93 @@
+
+ .nobis p {
+  width: 300px;
+ }
+
+.sitone{
+    font-family: Crimson Text;
+font-weight: 700;
+font-size: 24px;
+line-height: 125%;
+letter-spacing: 0px;
+width: 334;
+height: 60;
+ margin-left: 10px;
+
+}
+.ametone{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    margin-left: 10px;
+
+}
+.learnmore3{
+margin-right: -40px;
+ margin-left: 10px;
+
+}
+
+/* --- Desktop View (min-width: 1024px) --- */
+@media screen and (min-width: 1024px) {
+  .Nobisname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: row-reverse;
+     padding-right: 450px;
+      margin-left: 180px;
+  }
+
+  .group4 {
+    width: 60%;
+    height: auto;
+  }
+
+  .nobis {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 100px;
+    margin-top: 30px;
+  }
+
+  .sit {
+    font-size: 32px;
+    width: 60%;
+    margin-left: 0;
+  }
+
+  .amet {
+    font-size: 18px;
+    width: 350px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .learnmore-nobis {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 100px;
+    margin-top: 30px;
+  }
+
+  .learnmore3 {
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .learnmore3:hover {
+    transform: scale(1.05);
+  }
+}
+
+@media (min-width:768px){
+  .Nobisname{
+    margin-left: 180px;
+  }
+}
+

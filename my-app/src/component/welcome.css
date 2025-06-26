@@ -1,0 +1,93 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap'); */
+.welcome{
+    background-color:  #74C69D;;
+    padding-bottom: 40px;
+}
+.h2{
+    font-family: Work Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 15px;
+
+}
+.lorem{
+   font-family: Crimson Text;
+font-weight: 700;
+font-size: 28px;
+line-height: 125%;
+letter-spacing: 0px;
+color: white;
+  margin-left: 15px;
+
+
+}
+.description{
+    font-size: 16px;
+    color: white;
+    margin-left: 15px;
+}
+.explore{
+    margin-left: 15px;
+}
+
+/* --- Desktop View (min-width: 1024px) --- */
+@media screen and (min-width: 1024px) {
+  .welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 100px;
+    flex-direction: row-reverse;
+    padding-bottom: 40px;
+  }
+
+  .group2pic {
+    max-width: 40%;
+    height: auto;
+  }
+
+  .welcome-text {
+    max-width: 55%;
+  }
+
+  .h2,
+  .lorem,
+  .description,
+  .explore {
+    margin-left: 0;
+  }
+
+  .h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .lorem {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .explore {
+    width: 180px;
+  }
+}
+
+@media (min-width:768px){
+.welcome {
+  padding-left: 200px;
+  padding-bottom: 40px;
+
+}
+}
+

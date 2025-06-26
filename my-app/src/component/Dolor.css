@@ -1,0 +1,103 @@
+/* .dolor{
+    width: 335%;
+height: 513px;
+top: 1435px;
+left: 20px;
+gap: 30px;
+
+} */
+/* .group3{
+    width: 100%;
+height: 20px;
+
+} */
+
+.sit{
+    font-family: Crimson Text;
+font-weight: 700;
+font-size: 24px;
+line-height: 125%;
+letter-spacing: 0px;
+width: 334;
+height: 60;
+ margin-left: 10px;
+
+}
+.amet{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    margin-left: 10px;
+
+}
+.dolor p {
+  width: 300px;
+}
+
+.learnmore2{
+margin-right: -40px;
+ margin-left: 10px;
+
+}
+
+/* --- Desktop View (min-width: 1024px) --- */
+@media screen and (min-width: 1024px) {
+  .dolorname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin-left: 180px;
+  }
+
+  .group3 {
+    width: 60%;
+    height: auto;
+  }
+
+  .dolor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 100px;
+    margin-top: 30px;
+  }
+
+  .sit {
+    font-size: 32px;
+    margin-left: 0;
+    width: 60%;
+  }
+
+  .amet {
+    font-size: 18px;
+    width: 70%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .learnmore-nobis {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 100px;
+    margin-top: 30px;
+   
+  }
+
+  .learnmore2 {
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .learnmore2:hover {
+    transform: scale(1.05);
+  }
+}
+@media (min-width:768px){
+  .dolorname{
+    margin-left: 180px;
+  }
+}
