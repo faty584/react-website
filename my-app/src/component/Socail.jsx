@@ -15,7 +15,7 @@ const Socail = () => {
         <>
             <div className="Socailname">
                 <div social-icons className="socail-icons">
-                <img src={Facebook} alt="facebook" className="facebookone" />
+                <img src={Facebook} alt="facebook" className="facebookon" />
                 <img src={Instr} alt="instr" className="instr" />
                 <img src={Twr} alt="Twr" className="twr" />
                 <img src={PAIT} alt="PAIT" className="p" />
