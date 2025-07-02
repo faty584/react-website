@@ -5,7 +5,7 @@ import groupWoman from "../assets/Group woman.png";
 import groupMask from "../assets/Group mask.png";
 import groupGlass from "../assets/Group glass.png";
 import groupBray from "../assets/Group bray.png";
-import VeiwTeam from "../assets/Veiwteam.png";
+import VeiwTeam from "../assets/VeiwTeam.png";
 
 const Team = () => {
     return (
