@@ -98,7 +98,8 @@ margin-top: 30px;
 .morevalid img {
   width: 70%;
   max-width: 200px;
-  margin-top: -40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 /* Tablet styles (min-width: 600px) */
@@ -114,6 +115,8 @@ margin-top: 30px;
 
   .morevalid img {
     width: 100%;
+     margin-top: 20px;
+  margin-bottom: 10px;
   }
 }
 
@@ -129,7 +132,9 @@ margin-top: 30px;
   }
 
   .morevalid img {
-    width: 20%;
+    width: 100%;
+    margin-top: 20px;
+  margin-bottom: 10px;
   }
 }
 

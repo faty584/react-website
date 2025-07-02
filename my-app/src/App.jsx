@@ -5,7 +5,7 @@ import Navbar from './component/Navbar';
 import Social from './component/Socail';
 import Portfolio from './pages/Portfolio';
 import Service from './pages/Service';
-
+import Contact from './pages/Contact.jsx';
 
 function App() {
   return (
@@ -16,7 +16,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Portfolio" element={<Portfolio />} />
-        <Route path="/Service" element={<Service />} />
+        <Route path="/Services" element={<Service />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       
       <Social />

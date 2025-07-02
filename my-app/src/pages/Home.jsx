@@ -1,5 +1,5 @@
-import Partners from "../component/Partners";
-import Welcome from "../component/Welcome";
+import Partners from "../component/partners";
+import Welcome from "../component/welcome";
 import Dolor from "../component/Dolor";
 import Nobis from "../component/Nobis";
 import Team from "../component/Team";
