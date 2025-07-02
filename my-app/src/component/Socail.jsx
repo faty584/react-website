@@ -6,8 +6,8 @@ import Instr from "../assets/instr.svg";
 import Twr from "../assets/twr.svg";
 import PAIT from "../assets/p.svg";
 import Tic from "../assets/tic.svg";
-import Whatsapp from "../assets/Whatsapp.svg";
-import Youtube from "../assets/Youtube.svg";
+import Whatsapp from "../assets/whatsapp.svg";
+import Youtube from "../assets/youtube.svg";
 
 
 const Socail = () => {
