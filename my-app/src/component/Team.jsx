@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Team.css";
-import groupWoman from "../assets/Group Woman.png";
+import groupWoman from "../assets/Group woman.png";
 import groupMask from "../assets/Group mask.png";
 import groupGlass from "../assets/Group glass.png";
 import groupBray from "../assets/Group bray.png";
