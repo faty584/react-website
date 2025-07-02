@@ -4,7 +4,7 @@ import "./Social.css";
 import Facebook from "../assets/facebook.png";
 import Instr from "../assets/instr.svg";
 import Twr from "../assets/twr.svg";
-import PAIT from "../assets/P.svg";
+import PAIT from "../assets/p.svg";
 import Tic from "../assets/tic.svg";
 import Whatsapp from "../assets/Whatsapp.svg";
 import Youtube from "../assets/Youtube.svg";
