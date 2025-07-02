@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import "./welcome.css";
-import group2pic from "../assets/group2pic.png";
+import group2pic from "../assets/Group2pic.png";
 import explore from "../assets/explore.png";
 
 
