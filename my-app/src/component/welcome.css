@@ -48,8 +48,9 @@ color: white;
   }
 
   .group2pic {
-    max-width: 40%;
-    height: auto;
+    width: 40%;
+    /* height: auto; */
+    
   }
 
   .welcome-text {
