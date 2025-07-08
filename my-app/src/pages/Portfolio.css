@@ -98,11 +98,12 @@ margin-top: 30px;
 .morevalid img {
   width: 70%;
   max-width: 200px;
-  margin-top: -40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 /* Tablet styles (min-width: 600px) */
-@media screen and (min-width: 600px) {
+@media (min-width:768px) {
   .cardpor {
     justify-content: space-around;
     gap: 40px;
@@ -110,26 +111,42 @@ margin-top: 30px;
 
   .cardpor img {
     width: 45%;
+  
+    
   }
 
   .morevalid img {
     width: 100%;
+     margin-top: 20px;
+  margin-bottom: 10px;
   }
 }
 
 /* Desktop styles (min-width: 1024px) */
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .cardpor {
-    justify-content: space-between;
-    gap: 30px;
+    
+    gap: 5px;
+    margin-left: 150px;
+    max-width: 1200px;
+    width: 100%;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+
   }
 
-  .cardpor img {
-    width: 25%;
-  }
+  /* .cardpor img {
+    width: 100%;
+     display: grid;
+        
+      
+
+  } */
 
   .morevalid img {
-    width: 20%;
+    width: 100%;
+    margin-top: 20px;
+  margin-bottom: 10px;
   }
 }
 

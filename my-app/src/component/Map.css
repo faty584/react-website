@@ -1,0 +1,24 @@
+.google-map-iframe {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .google-map-iframe {
+    height: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .google-map-iframe {
+    height: 400px;
+    width: 400px;
+    margin-top: 30px;
+  }
+
+  .map-container {
+    margin-top: -50px;
+  }
+}

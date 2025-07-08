@@ -32,7 +32,7 @@ text-align: center;
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 20px;
-    
+   
 
 }
 
@@ -87,8 +87,9 @@ text-align: center;
     padding-left: 50px;
     display: flex;
     width: 300px;
-    margin: 0 auto;
-    margin-right: 700px;
+    /* margin: 0 auto; */
+    /* margin-right: 700px; */
+     margin-left: 180px;
   }
 
   .google,
@@ -101,7 +102,6 @@ text-align: center;
   .learnmore {
     display: flex;
     justify-content: flex-start;
-    padding-left: 70px;
      margin-top: 70px;
      margin-left: 540px;
     
@@ -113,7 +113,7 @@ text-align: center;
     display: flex;
     justify-content: center;
     margin-top: -100px;
-     margin-left: 330px;
+     margin-left: 290px;
   }
 }
 

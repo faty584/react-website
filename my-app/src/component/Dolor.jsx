@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {Link} from "react-router-dom";
-import "./dolor.css";
+import "./Dolor.css";
 import learnmore from "../assets/learn more.png";
 
 import group3pic from "../assets/group3pic.png";
