@@ -11,10 +11,10 @@ color: #74C69D;
 }
 
 .servicehome {
-    width: 350px;
+    width: 100%;
 }
 .OurServices{
-    font-family: Crimson Text;
+ font-family: Crimson Text;
 font-weight: 700;
 font-size: 24px;
 line-height: 125%;
@@ -25,7 +25,7 @@ margin-top: -5px;
 }
 
 .prplan{
-    font-family: Work Sans;
+font-family: Work Sans;
 font-weight: 300;
 font-size: 17px;
 line-height: 125%;
@@ -63,7 +63,7 @@ margin-top: 20px;
 }
 
 .verse p{
- width: 350px;
+ width: 100%;
  margin: 0 auto;
 
 }
@@ -87,7 +87,6 @@ span {
 {
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 15px;
-    width: auto;
     justify-content: center;
 }
 
@@ -119,7 +118,7 @@ margin-top: 20px;
 }
 
 .maiverse p{
-     width: 350px;
+     width: 100%;
  margin: 0 auto;
  
 }
@@ -127,7 +126,7 @@ margin-top: 20px;
 
 
 .secondverse p{
-     width: 350px;
+     width: 100%;
     margin: 0 auto;
  
 
@@ -160,15 +159,16 @@ margin-top: 20px;
 
 }
 .moreone,
-.moretwo,
-.morethree{
-    margin-top: 30px;
-    margin-left:100px;
+.moretwo{
+     margin-top: 30px;
+    margin-left:50px;
     margin-bottom: 30px;
     align-self:center;
-}
 
-.secondverse{
+
+}
+   
+.secondverse, .maiverse, .verse {
     display: grid;
     justify-content:center;
 }
@@ -182,38 +182,50 @@ input {
     margin-left: 0px;
 }
 
+.spc img {
+    margin-left:0px;
+}
+
+.cardsone li, .secondverse li, .verse li {
+    text-align: center
+}
+
+.Basic, .Pro, .Plus {
+    padding-top: 30px;
+}
 
 @media (min-width:1024px) {
   .ParentDiv{
-    width: 50%;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 70px;
     display: flex;
-    gap: 50px;
+    gap: 30px;
+    width: 1300px;
+    justify-self: center;
+
+
   }
 
  
 
 .cards {
-    width: 30px;
-    margin: 0px auto;
-    display: flex;
+     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: auto;
+     
 }
 
 .cardsone {
-    width: 30px;
-    margin: 0px auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: auto;
+     max-width: 100%;
 }
 
 .cardstwo {
-    width: 30px;
-    margin: 0px auto;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -221,7 +233,7 @@ input {
 }
 
 .workplane {
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -231,14 +243,15 @@ input {
 
 @media (min-width: 768px) {
   .ParentDiv {
-    width: 500px;
-    margin-left: 150px;
-    margin-bottom: 20px;
+   justify-items:center;
+   margin-bottom: 20px;
+   padding:0px 70px;
+   max-width: 1024px;
 
   }
 
   .workplane {
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -246,13 +259,29 @@ input {
   .cards,
   .cardsone,
   .cardstwo {
-    width: 100%;
-    margin: 0 auto;
+     width: 100%;
+
+
   }
+
+  .moreone,
+.moretwo
+{
+    margin-top: 30px;
+    margin-left:40px;
+    margin-bottom: 30px;
+    align-self:center;
+}
 
   input {
     width: 70%;
   }
+
+  .price {
+    text-align: center;
+    margin-right: 30px;
+  }
+
 }
 
 

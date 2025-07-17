@@ -12,7 +12,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="twostart">
           <img src={menustar} alt="Nav bar logo" className="logo" />
-          <h2 className="start">start</h2>
+          <h2 className="start">Start</h2>
         </div>
 
         {/* Desktop Links */}

@@ -42,7 +42,7 @@ text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    padding: 60px 100px;
+    padding: 60px 40px;
     justify-items: center;
     align-items: center;
     margin-bottom: 80px;
@@ -61,6 +61,7 @@ text-align: center;
     width: 180px;
     height: auto;
     transition: transform 0.3s ease;
+  
   }
 
   .woman:hover,

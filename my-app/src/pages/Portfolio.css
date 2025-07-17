@@ -19,6 +19,7 @@ font-size: 24px;
 line-height: 125%;
 letter-spacing: 0px;
 text-align: center;
+margin:40px;
 }
 .para{
     font-family: Work Sans;
@@ -105,12 +106,18 @@ margin-top: 30px;
 /* Tablet styles (min-width: 600px) */
 @media (min-width:768px) {
   .cardpor {
-    justify-content: space-around;
+   padding: 40px;
     gap: 40px;
+    display:flex;
+    flex-direction:column;
+    
   }
 
   .cardpor img {
-    width: 45%;
+   width: 100%;     
+     height: auto;
+     max-width: 600px;
+     
   
     
   }
@@ -123,25 +130,30 @@ margin-top: 30px;
 }
 
 /* Desktop styles (min-width: 1024px) */
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .cardpor {
-    
-    gap: 5px;
-    margin-left: 150px;
+    gap: 40px;
+    justify-self:center;
+    justify-items:center;
     max-width: 1200px;
     width: 100%;
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     
 
   }
 
-  /* .cardpor img {
-    width: 100%;
-     display: grid;
-        
-      
+  .Portfolio{
+margin:40px;
+}
 
-  } */
+  .cardpor img {
+   width: 100%;
+  height: auto;
+   max-width: 570px;
+    
+ 
+  }
 
   .morevalid img {
     width: 100%;

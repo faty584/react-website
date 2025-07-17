@@ -84,12 +84,12 @@ text-align: center;
     justify-content: flex-start;
     gap: 60px;
     flex-wrap: nowrap;
-    padding-left: 50px;
+    padding-left: 160px;
     display: flex;
     width: 300px;
     /* margin: 0 auto; */
     /* margin-right: 700px; */
-     margin-left: 180px;
+     /* margin-left: 300px; */
   }
 
   .google,
@@ -113,12 +113,23 @@ text-align: center;
     display: flex;
     justify-content: center;
     margin-top: -100px;
-     margin-left: 290px;
+     /* margin-left: 400px; */
+     padding-left: 160px;
   }
 }
 
 @media (min-width:768px){
   .learnmore{
     margin-left:  200px;
+  }
+
+  .smooth img{
+  align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+   
   }
 }
