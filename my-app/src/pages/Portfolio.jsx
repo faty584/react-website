@@ -31,10 +31,11 @@ const Portfolio = () => {
                     <img src={Trick} alt="Trick" className="Trick" />
                     <img src={Halloween} alt="Halloween" className="Halloween" />
                     <img src={Virtual} alt="Virtual" className="Virtual" />
-                    <div className="morevalid">
+                    
+                </div>
+                <div className="morevalid">
                         <img src={learnmore} alt="Learn More" className="more" />
                     </div>
-                </div>
             </div>
         </>
     );

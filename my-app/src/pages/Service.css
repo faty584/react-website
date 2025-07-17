@@ -1,0 +1,288 @@
+.Plans{
+   font-family: Work Sans;
+font-weight: 700;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: 5px;
+text-align: center;
+text-transform: uppercase;
+color: #74C69D;
+ 
+}
+
+.servicehome {
+    width: 100%;
+}
+.OurServices{
+ font-family: Crimson Text;
+font-weight: 700;
+font-size: 24px;
+line-height: 125%;
+letter-spacing: 0px;
+text-align: center;
+margin-top: -5px;
+
+}
+
+.prplan{
+font-family: Work Sans;
+font-weight: 300;
+font-size: 17px;
+line-height: 125%;
+letter-spacing: 0px;
+text-align: center;
+
+}
+
+.Basic{
+font-family: Work Sans;
+font-weight: 400;
+font-size: 15px;
+line-height: 125%;
+letter-spacing: 0px;
+text-align: center;
+margin-top: 70px;
+
+}
+
+.dolas{
+margin-left: 90px;
+
+
+}
+
+.h5m{
+    font-family: Work Sans;
+font-weight: 300;
+font-size: 15px;
+line-height: 125%;
+letter-spacing: 0px;
+text-align: center;
+margin-top: 20px;
+
+}
+
+.verse p{
+ width: 100%;
+ margin: 0 auto;
+
+}
+
+
+ li{
+    text-decoration: none;
+    display:flex;
+    gap: 20px;
+
+
+    
+}
+
+span {
+    margin-top: 5px;
+}
+.cards,
+.cardsone,
+.cardstwo
+{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 15px;
+    justify-content: center;
+}
+
+.Plus{
+   font-family: Work Sans;
+font-weight: 400;
+font-size: 15px;
+line-height: 125%;
+letter-spacing: 0px;
+text-align: center;
+margin-top: 70px;
+
+}
+
+.dnam{
+    margin-left: 90px;
+
+}
+
+.h5mone{
+font-family: Work Sans;
+font-weight: 300;
+font-size: 17px;
+line-height: 125%;
+letter-spacing: 0px;
+text-align: center;
+margin-top: 20px;
+
+}
+
+.maiverse p{
+     width: 100%;
+ margin: 0 auto;
+ 
+}
+
+
+
+.secondverse p{
+     width: 100%;
+    margin: 0 auto;
+ 
+
+
+}
+
+.Pro{
+    font-family: Work Sans;
+font-weight: 400;
+font-size: 15px;
+line-height: 125%;
+letter-spacing: 0px;
+text-align: center;
+margin-top: 70px;
+}
+
+.DL400{
+  margin-left: 90px;  
+}
+
+.h5mtwo{
+    font-family: Work Sans;
+font-weight: 300;
+font-size: 17px;
+line-height: 125%;
+letter-spacing: 0px;
+text-align: center;
+margin-top: 20px;
+
+
+}
+.moreone,
+.moretwo{
+     margin-top: 30px;
+    margin-left:50px;
+    margin-bottom: 30px;
+    align-self:center;
+
+
+}
+   
+.secondverse, .maiverse, .verse {
+    display: grid;
+    justify-content:center;
+}
+
+
+input {
+    width: 90%;
+}
+
+.contactinfo label {
+    margin-left: 0px;
+}
+
+.spc img {
+    margin-left:0px;
+}
+
+.cardsone li, .secondverse li, .verse li {
+    text-align: center
+}
+
+.Basic, .Pro, .Plus {
+    padding-top: 30px;
+}
+
+@media (min-width:1024px) {
+  .ParentDiv{
+    max-width: 100%;
+    margin: 70px;
+    display: flex;
+    gap: 30px;
+    width: 1300px;
+    justify-self: center;
+
+
+  }
+
+ 
+
+.cards {
+     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+     
+}
+
+.cardsone {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+     max-width: 100%;
+}
+
+.cardstwo {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+}
+
+.workplane {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+}
+
+
+@media (min-width: 768px) {
+  .ParentDiv {
+   justify-items:center;
+   margin-bottom: 20px;
+   padding:0px 70px;
+   max-width: 1024px;
+
+  }
+
+  .workplane {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+
+  .cards,
+  .cardsone,
+  .cardstwo {
+     width: 100%;
+
+
+  }
+
+  .moreone,
+.moretwo
+{
+    margin-top: 30px;
+    margin-left:40px;
+    margin-bottom: 30px;
+    align-self:center;
+}
+
+  input {
+    width: 70%;
+  }
+
+  .price {
+    text-align: center;
+    margin-right: 30px;
+  }
+
+}
+
+
+
