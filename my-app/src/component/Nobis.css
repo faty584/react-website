@@ -50,20 +50,20 @@ margin-right: -40px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0 100px;
+    padding: 0 200px;
     margin-top: 30px;
   }
 
   .sit {
     font-size: 32px;
     width: 60%;
-    margin-left: 0;
+    margin-left: 80px;
   }
 
   .amet {
     font-size: 18px;
     width: 350px;
-    margin-left: 0;
+    margin-left: 80px;
     margin-top: 10px;
   }
 
@@ -78,6 +78,7 @@ margin-right: -40px;
     width: 150px;
     cursor: pointer;
     transition: transform 0.3s ease;
+    margin-left: -16px;
   }
 
   .learnmore3:hover {

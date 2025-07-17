@@ -133,3 +133,24 @@ text-align: center;
    
   }
 }
+
+@media (min-width:1440px){
+  .smooth {
+    justify-content: flex-start;
+    gap: 60px;
+    flex-wrap: nowrap;
+    padding-left: 550px;
+    display: flex;
+    width: 300px;
+  }
+
+  .learnmore img {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+     /* margin-left: 400px; */
+    padding-left: 510px;
+  }
+
+
+}
