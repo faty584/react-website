@@ -68,7 +68,8 @@ margin-left: 20%;
 /* Logo styling */
 .logo {
     width: 40px;
-    padding-right: 100px
+    padding-right: 100px;
+    padding-left: 40px;
 }
 
 /* Desktop Navigation Links */
@@ -97,6 +98,7 @@ margin-left: 20%;
 }
 .start {
     margin-left: -113px ;
+    /* font-size: 40px; */
 
 }
 /* Mobile Dropdown Menu */
@@ -162,6 +164,9 @@ body, html {
     .hamburger {
         display: none;
     }
+.start {
+    font-size: 40px;
+}
 
    
 }

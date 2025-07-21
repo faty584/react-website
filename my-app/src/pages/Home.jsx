@@ -1,14 +1,14 @@
 import Partners from "../component/partners";
 import Welcome from "../component/welcome";
-import Dolor from "../component/dolor";
-import Nobis from "../component/nobis";
-import Team from "../component/team";
+import Dolor from "../component/Dolor";
+import Nobis from "../component/Nobis";
+import Team from "../component/Team";
 
 
 
 const Home = () => {
     return (
-        <div className="home">
+        <div className="Home">
             
             <Welcome />
             <Partners/>
